@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edbd3a4c45be4a63bdc15a13f1fdf7c9, type: 3}
+  m_Name: DefaultSettings
+  m_EditorClassIdentifier: 
+  xSize: {x: -120, y: 120}
+  zSize: {x: -120, y: 120}
+  maxAmountOfPlayers: 5
+  playerPrefab: {fileID: 7708854441140396548, guid: 6f5a5f2fa0f0fa24c83e9c401d96a82c, type: 3}
+  aiPrefab: {fileID: 5422132939341745328, guid: deab9cdba4459814891a312a57e1c3d8, type: 3}
+  npcPrefab: {fileID: 6703038022324030995, guid: ad696f61b7944a3458ed4c56e44be41a, type: 3}
+  leaderSkins:
+  - {fileID: 11400000, guid: 88299e84a9f93c1438ebf3c7bde6a7d4, type: 2}
+  - {fileID: 11400000, guid: 3597a35c614dc44479ad82d6cb6834cd, type: 2}
+  - {fileID: 11400000, guid: c14634bdfbb648e43b17a185e6f1c34d, type: 2}
+  - {fileID: 11400000, guid: 0a44cb1bbb560cd41a316b8d35e5ae4a, type: 2}
+  - {fileID: 11400000, guid: 00c3d75585545024b9109ae9669994de, type: 2}
+  leaderNames:
+  - Basher
+  - Cannonball
+  - Snowflake
+  - Jelly
+  - Genius
+  - Izzy
+  - Wheels
+  - Stretch
+  - Bird
+  - Biggie
+  - Dynamite
+  - Starfall
+  - Jumbo
+  - Beast
+  - Frosty
+  - Storm
+  - Shark
+  - Ducky
+  - Bigshot
+  - Cobra
+  startAmountOfNpc: 80
+  maxAmountOfNpc: 120
+  followersForCapturing: 100
